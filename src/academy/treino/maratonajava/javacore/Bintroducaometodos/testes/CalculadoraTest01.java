@@ -26,5 +26,16 @@ public class CalculadoraTest01 {
         calculadora.alteraNumeros(num1,num2);
         System.out.println(num1);
         System.out.println(num2);
+        System.out.println("----------------");
+
+        int[] num = {1,2,3,4,5};
+        calculadora.somaArr(num);
+
+        System.out.println("----------------");
+        calculadora.somaVarArgs(1,2,3,4,5,6,7,8);
+
+        System.out.println("-----------------");
+        String[] str = {"oi","ai","tudo"};
+        calculadora.somaStr(str);
     }
 }

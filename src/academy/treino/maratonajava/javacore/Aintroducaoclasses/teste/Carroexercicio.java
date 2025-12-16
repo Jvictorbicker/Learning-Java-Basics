@@ -15,9 +15,12 @@ public class Carroexercicio {
         carro2.marca = "volkswagem";
         carro2.modelo = "Gol GT";
 
-        carro = carro2; //fazer uma classe receber outra classe
+        //carro = carro2; //fazer uma classe receber outra classe
 
-        System.out.println("modelo: " + carro.modelo + " ano: " + carro.ano + " marca: " + carro.marca);
-        System.out.println("modelo: " + carro2.modelo + " ano: " + carro2.ano + " marca: " + carro2.marca);
+        //System.out.println("modelo: " + carro.modelo + " ano: " + carro.ano + " marca: " + carro.marca);
+        //System.out.println("modelo: " + carro2.modelo + " ano: " + carro2.ano + " marca: " + carro2.marca);
+
+        carro.imprime();
+        carro2.imprime();
     }
 }
